@@ -7,16 +7,39 @@
 </head>
 
 <body class="page__body">
-  <div>
-    <header class="page-header">
-      <img class="page-header__logo-sign" src="">
-      <img class="page-header__logo" src="" </div>
-      <nav class="main-nav">
-        <button class="main-nav__toggl" type="button">
-          <span class=""></span>Открыть меню</button>
-      </nav>
-    </header>
-  </div>
+  <header class="page-header">
+    <a class="page-header__logo-sign">
+      <img src="img/logo-mobile.svg" width="33" height="37">
+    </a>
+    <a class="page-header__logo">
+      <img src="img/logo.svg" width="101" height="18">
+    </a>
+    <a class=" page-header__logo-tablet">
+      <img src="img/logo-tablet.svg" width="174" height="52"> <!-- Логотип для планшета -->
+    </a>
+    <a class=" page-header__logo-desktop">
+      <img src="img/logo-desktop.svg" width="202" height="59">
+      <!-- Логотип для десктопной версии, он отличается от предыдущих -->
+    </a>
+    <nav class="main-nav">
+      <button class="main-nav__toggle" type="button">
+        <span class="main-nav__toggle-view">Открыть меню</span>
+      </button>
+      <div class="main-nav__block">
+        <ul class="main-nav__list">
+          <li class="list-item list-item--active">
+            <a href="#">Главная</a>
+          </li>
+          <li class="list-item">
+            <a href="#">каталог продукции/a>
+          </li>
+          <li class="list-item">
+            <a href="#">подбор программы</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
 </body>
 
 </html>
